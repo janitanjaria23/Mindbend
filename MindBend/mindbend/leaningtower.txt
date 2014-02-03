@@ -1,0 +1,223 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		<h1 class="style1">&nbsp;
+		</h1>
+		<h1><span style="color:orange">Leaning Tower!!
+</span></h1>
+
+		
+
+				
+<p><b><span class="style8"><b><br>Leaning Tower of Pisa - who doesn’t recognize this name..!!!</b></br>
+<br>It is an amazing art of civil engineering. So here we are presenting the task to you to build a model of leaning tower using popsicle sticks.</br>
+</span>.</b></p>
+
+</b></p>
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>Problem Statement:</strong></h2>
+	<div class="pane">
+		<p class="style8">We bring you the challenge to design a Leaning Tower using Tooth picks, Popsicle sticks (ice-cream sticks) & fevicol, which can sustain maximum load, maximum leaning angle and satisfying the stated constraints.</p>
+	</div>
+
+
+
+	<h2 class="style7">Rules</h2>
+	<div class="pane">
+		<strong>
+		<ol class="style8">1.	Team can comprise of maximum 4 members.</ol>
+		<ol class="style8">2.	Registration fee is Rs 100/- per team.</ol>
+		<ol class="style8">3.	The leaning tower should be made with popsicle sticks.</ol>
+		<ol class="style8">4.	Interdisciplinary participation is allowed.</ol>
+		<ol class="style8">5.	The final selected teams will present their model during MindBend. The models will be put on an exhibit during the festival.</ol>
+		<ol class="style8">6.	The winners will be selected by a team of judges based on their model presentation.</ol>
+		<ol class="style8">7.	The decision of judges will be final and binding.</ol>
+
+	</strong>
+	</div>
+
+	
+<h2 class="style7">Specifications:</h2>
+	<div class="pane">
+	<p class="style9"><u>Material Constraints:</u></p>
+		<p>
+		<strong>
+		<ol class="style8">1.	Popsicle sticks (maximum length 110 mm, width 13 mm and thickness 3 mm), wooden toothpicks (maximum diameter 2 mm, length 65 mm and non-colored) and adhesive (fevicol) can only be used to build the structure.</ol>
+		<ol class="style8">2.	Adhesive can be used to join Popsicle sticks and Toothpicks together; however adhesives cannot be applied on the free surface of a member made of Popsicle sticks to increase its strength (Adhesives such as M-Seal or Fevi-qwik are not allowed).</ol>
+		<ol class="style8">3.	The Popsicle sticks and Toothpicks can be cut or trimmed to any shape or size.</ol>
+		<ol class="style8">4.	Structures built using any other materials except those mentioned above will be disqualified.</ol>
+
+		</strong>
+</p>
+<p class="style8"><u>Test Conditions:</u></p>
+<p class="style8">
+Prior to evaluating the structure, the dead weight (m) is measured and recorded in grams.
+The team members will decide how much weight should be kept initially. The weights will be kept on the middle of the top flat surface of the structure.
+After that weight will be increased in 1 kg intervals (or according to situation) and the ultimate load carrying capacity (Fu) of the structure will be evaluated at the point of failure.
+</p>
+<p class="style8"><u>Definition Of Failure:</u></p>
+	<p class="style8">
+	The structure is considered failed when: 
+	<li class="style8">The vertical deflection exceeds 50mm, i.e. the vertical height reduces by 50mm or more due to bending.</li>
+	<li class="style8">Any member or joint fails.</li>
+	<li class="style8">At any point of time, the structure, other than foundation, touches the platform.</li>
+
+	</p>
+
+
+	<p class="style8"><u>Judging Criteria:</u></p>
+	<ol class="style8"><u>1.Structural Efficiency(E)</u></ol>
+	<p class="style8">
+	<br>The structural efficiency will be calculated by the following equation:
+              <br>E=Fu/m
+              <br>Where
+			<br>Fu= Ultimate load taken by the structure (kgf).
+			<br>m= Dead weight of structure as measured at the competition. 
+			<br>200 points will be awarded to the team with the highest score in this category, and all others will be awarded points based on their structural efficiency as a fraction of the highest score.
+	</p>
+	<ol class="style8"><u>2.Vertical height-load factor (HLF):</u></ol>
+	<p class="style8">
+	HFL= Vertical height of structure above the base (in mm)) * (load in kg)
+	150 points will be awarded for the structure with highest value of HFL and all others will be awarded points based on their product as a fraction of the maximum product obtained. </br>
+	</p>
+	<ol class="style8"><u>3.Inclination Load Factor</u></ol>
+	<p class="style8">
+	<br>ILF= (Angle (in degrees) with vertical) * (load in kg)
+	<br>100 points will be awarded for the structure with highest product of and all others will be awarded points based on their product as a fraction of the maximum product obtained.
+	</p>
+	
+	<ol class="style8"><u>4.Ultimate Load Carrying Capacity (Fu)</u></ol>
+	<p class="style8">
+	<br>Fu=maximum load taken by the structure (in kgf).
+	<br>75 points will be awarded to the team with largest ultimate load capacity, and the remaining teams would be awarded points based on linear interpolation of their own capacity between the maximum (largest ultimate load capacity) and the minimum. 
+
+	</p>
+	<ol class="style8"><u>4.Leaning Angle(LA)</u></ol>
+	<p class="style8">
+	<br>LA= leaning angle of the structure.
+	<br>50 points will be awarded to the team with the maximum inclined angle with the vertical, and all others will be awarded points based on their angle of inclination as a fraction of the maximum inclination with vertical registered.
+	<br>Thus,
+	<br>Total points=E + HLf + ILf + Fu + LA
+	<br>Where E=200
+    <br>    HLF=150
+    <br>ILF=100
+    <br>Fu=75
+    <br>LA=50
+ 	<br>So maximum Total Points=200+150+100+75+50=575
+ 	<br><strong>The judging will be done on the basis of points secured by the participants. The participant with highest points will be the winner.</strong> 
+	</p>
+	
+	<p class="style8">
+	Structural Constraints And Penalty
+	</p>
+	<ol class="style8">
+	1.	The structure should have a minimum base area of 100*100 mm^2 and should fit in a square of area 200*200 mm^2. Structures with base area less than 95*95 mm^2 will be disqualified, i.e. erroneous base area between 100*100 mm^2 and 95*95 mm^2 will be accommodated. Structures with base area more than 200*200 mm^2 will have the following penalties applicable:-
+	15 points will be deducted at every increase of 10*10 mm^2 in the base area after 20*20 mm^2.
+	If the base doesn’t fit in square of 250*250 mm^2, it will be disqualified.
+	</ol>	
+	<ol class="style8">
+	2.	The structure should have a base foundation of a maximum of 100 mm in height below the leaning structure as shown in the fig.
+	<br>Structures with height of foundation more than 100 mm will have the following penalties applicable:-
+	<br>If maximum height of foundation exceeds 100 mm, but is within 110 mm—30 pts will be deducted.
+	<br>If maximum height of foundation exceeds 110 mm, but is within 120 mm—60 pts will be     deducted.
+	<br>If maximum height of foundation exceeds 120 mm, structure will be disqualified.
+	</ol>
+	<ol class="style8">
+	3.	The foundation of the structure will be tied with threads to hold the base tightly.
+	</ol>
+	<ol class="style8">
+	4.	Height of the leaning structure will be measured from above the height of the foundation. Also the structure should have a minimum of 350 mm vertical height above the foundation. Structures having vertical height less than 350 mm will be disqualified.
+	</ol>	
+	
+	<ol class="style8" >
+	5. Angle made by the leaning structure with the vertical will be measured from above the foundation to the highest point of the structure using the formulaa=?tan?^(-1)??(horizontal distance from base)/((vertical height above the base))?
+		<br>The minimum angle of the structure with vertical should be 10 degrees.
+		<br>Structure having angle 8 to 9 degrees will be awarded 0 pts in the maximum inclination criteria.
+	</ol>
+	<ol class="style8">
+	6.	The structure should be symmetrical from outside, i.e. all sides of leaning structure should be uniformly inclined with same angle inclination.
+		 Moreover the uppermost surface of the structure should have the same shape and size as the bottom of the leaning structure (not the base foundation).
+ 		Top surface should be flat and parallel to ground surface. This is required in order to help you balance the load easily on the top surface.
+
+<p class="style8">Drawing of the arena along with explanation of how the foundation will be tied will be mentioned with the drawing/figure.</p>
+
+	</ol>
+	
+	
+	</div>	
+	
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li class="style8">PawanVijay +918866531897(pawan@mindbend.in)</li>
+<li class="style8">PriyaGupta +919737351453 (priya@mindbend.in)</li>
+
+
+
+		
+	</div>
+	
+
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>
+	

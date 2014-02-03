@@ -1,0 +1,111 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+			<!-- accordion -->
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Description:</strong></h2>
+	<div class="pane" style="display:block">
+		<h1 class="style1">&nbsp;
+		</h1>
+		<h1><span style="color:orange">PICTURE PERFECT!!
+</span></h1>
+
+		
+
+				
+<p class="style8"><strong>Students are supposed to make a colored picture on a given topic.</strong></p>
+
+
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>Category: </strong></h2>
+	<div class="pane">
+		<p><li><span class="style8">Std 5 to 6</span></li></p>
+	</div>
+
+
+
+
+	
+<h2 class="style7">Rules :</h2>
+	<div class="pane">
+		<p><li class="style8">1)	Get your own stationery and colors (any type of colors ).</li>
+
+<li class="style8">2)	Drawing sheet will be providing on the spot. </li>
+
+<li class="style8"> 3)	Topic shall be disclosed on the spot.</li>
+
+</p>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li class="style8">
+AANANDITA KATRE&nbsp; +91-8140213096 &nbsp;aanandita@mindbend.in</li>
+<li class="style8"> SHANIL TOPIWALA &nbsp;+91- &nbsp;shanil@mindbend.in</li>
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>

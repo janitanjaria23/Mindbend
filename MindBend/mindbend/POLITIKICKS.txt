@@ -1,0 +1,112 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+
+<div style="max-width:700px;">
+
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		<h1><span style="color:orange"><b>POLITIKICKS</b>
+</span></h1>
+
+		
+
+				
+<p class="style8">Does the present political scenario make you feel frustrated? Do you think work is not being done genuinely? Do you have that desire to do something desperately? Participate in politikicks!! 
+Become a self-made politician. Present and frame laws and debate with your oppositions on contemporary and controversial topics.
+.</p>
+
+</b></p>
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>Rules & Instructions</strong></h2>
+	<div class="pane">
+		<p><li class="style8"> Round 1:
+                           Teams would have to take a quiz. Topics for the quiz will be purely political, with more emphasis on recent and current political activities.</li> <li class="style8">
+                 Round 2:
+                    To be announced.</li><li class="style8">
+                    Round 3:
+                    Six teams would be shortlisted for the final round. A mini-parliament session will commence.</li><li class="style8">
+                  How the session will proceed and on what topic will be informed soon.
+</li>
+</p>
+	</div>
+
+
+
+	
+	
+<h2 class="style7">Team Format</h2>
+	<div class="pane">
+		<p><li class="style8"> 1.     Teams must contain 3 participants each.</li><li class="style8">
+
+ Teams have to register online.</li><li class="style8">
+
+ It is not necessary that the participants forming a team should be from the same college.</li><li class="style8">
+   All students with a valid identity card of their respective educational institutes are eligible to participate.</li><li class="style8">
+  Final decision will be of the organizers. Change in rules will be reflected on the website.
+
+ </li>
+
+</p>
+	</div>	
+	
+		<h2 class="style7">Contact</h2>
+	<div class="pane">
+		<li class="style8"> AAKASH BHAMRE &nbsp; +91-9428398435 &nbsp; aakash@mindbend.in</li>	</div>
+
+	
+</div>
+
+	
+</div>
+
+
+
+		</div>
+	</div>

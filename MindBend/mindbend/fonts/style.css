@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.svg#icomoon') format('svg'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'icomoon';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-stats:before {
+	content: "\21";
+}
+.icon-bug:before {
+	content: "\22";
+}
+.icon-earth:before {
+	content: "\23";
+}
+.icon-gift:before {
+	content: "\24";
+}
+.icon-loading:before {
+	content: "\25";
+}
+.icon-rocket:before {
+	content: "\26";
+}
+.icon-facebook:before {
+	content: "\27";
+}
+.icon-youtube:before {
+	content: "\28";
+}
+.icon-file-pdf:before {
+	content: "\29";
+}
+.icon-file-word:before {
+	content: "\2a";
+}
+.icon-pencil:before {
+	content: "\e046";
+}
+.icon-office:before {
+	content: "\e000";
+}
+.icon-paper-plane:before {
+	content: "\e001";
+}
+.icon-bars:before {
+	content: "\e021";
+}
+.icon-atom:before {
+	content: "\e002";
+}
+.icon-home:before {
+	content: "\e003";
+}
+.icon-light-bulb:before {
+	content: "\e004";
+}
+.icon-microphone:before {
+	content: "\e005";
+}
+.icon-tv:before {
+	content: "\e006";
+}
+.icon-users:before {
+	content: "\e029";
+}

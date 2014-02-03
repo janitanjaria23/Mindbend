@@ -1,0 +1,107 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		
+		<h1><span style="color:orange"> <b>Ocean-Think</b>
+</span></h1>
+
+		
+
+				
+<p class="style8">i.    India has been a pioneering force in shaping the world economy. What was thought not possible 20 years back is possible now! There were problems predicted for the future years back, many of them have been taken care of!
+
+                ii.    
+But today we will see ourselves 13 years down the line in the year 2025! What could be the possible major problems of the year 2025? Its time to think, because implementation cannot come if there is no thinking about the issues! So think!
+
+              iii.    And just like an Ocean retains its identity, no matter what all rivers dump into it, present your ideas in Ocean - Think, a platform over which you can discuss challenges of the future, provide solutions to it, have a demanding debate and spend a fruitful afternoon, but ultimately making sure that this country of our resemblances an Ocean! 
+
+Budding thinkers! Welcome! </p>
+
+</b></p>
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>Rules & Instructions</strong></h2>
+	<div class="pane">
+		<p><li><span class="style8">To be announced
+</span>
+</li>
+</p>
+	</div>
+
+
+
+	<h2 class="style7">Instructions</h2>
+	<div class="pane">
+		<li> <span class="style8">To be announced</span></li></p>
+	</div>
+
+	
+<h2 class="style7">Team Format</h2>
+	<div class="pane">
+		<p><li> <span class="style8">To be announced.</span></li>
+
+</p>
+	</div>	
+	
+	<h2 class="style7">Contact</h2>
+	<div class="pane">
+		<li class="style8"> AAKASH BHAMRE &nbsp; +91-9428398435 &nbsp; aakash@mindbend.in</li>	</div>
+
+	
+</div>
+
+	
+</div>
+
+
+
+		</div>
+	</div>

@@ -1,0 +1,120 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		<h1 class="style1">&nbsp;
+		</h1>
+		<h1><span style="color:orange">SCIENCE EXPERIMENT!!
+</span></h1>
+
+		
+
+				
+<p class="style8"><strong>New ideas create a whole new world. Discover a new idea and shape it with your talent. Unveil the scientist in you by presenting your ideas in this competition.</strong></p>
+		
+	</div>
+	<h2 class="style6"><strong>Description :  </strong></h2>
+	<div class="pane">
+		<p><li><span class="style8">Demonstrate a scientific principle by means of an experiment.</span></li></p>
+	</div>
+
+	
+
+
+<h2 class="style6"><strong>Category: </strong></h2>
+	<div class="pane">
+		<p><li><span class="style8">Std 5 to 7</span></li></p>
+	</div>
+
+
+
+
+	
+<h2 class="style7">Rules :</h2>
+	<div class="pane">
+		<p><li class="style8">	1)	Each team should have maximum 2 members.</li>
+
+<li class="style8">2)	A write up  has to prepared by each team. It should not contain more than 3 pages. Explanatory diagrams and figures may be included.</li>
+
+<li class="style8">3)	Participants should be aware of the practical applications of the principle they are demonstrating in their experiment.</li>
+<li class="style8">4)	Judges may ask questions related to the experiment. </li>
+
+<li class="style8">5)	Readymade models, Lego kits , commercially available experimental setups and kits are not allowed.</li>
+<li class="style8">6)	Participants will be judged on how creative, informative, elaborative demonstrative, their experiment is and also on how well they answer. </li>
+<li class="style8">Students have to get their own apparatus/components. 10 minutes will be given for assembly and set up.</li>
+
+
+
+</p>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li class="style8">
+AANANDITA KATRE&nbsp; +91-8140213096 &nbsp;aanandita@mindbend.in</li>
+<li class="style8"> SHANIL TOPIWALA &nbsp;+91- &nbsp;shanil@mindbend.in</li>
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>
+	

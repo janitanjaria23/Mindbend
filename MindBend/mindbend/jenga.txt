@@ -1,0 +1,104 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		<h1 class="style8">
+		<img alt="" src="img6.jpg" width="229" height="158"></h1>
+		<h1><span style="color:orange"><li>Jenga</li>
+</span></h1>
+
+		
+
+				
+<p><li> 
+		<p class="MsoNormal"><span class="apple-style-span">
+		<li class="style8">A game where players take turns to remove a block 
+		from a tower and balance it on top, creating a taller and increasingly 
+		unstable structure as the game progresses. The game ends when the tower 
+		falls in even a minor way. The winner is the last person to successfully 
+		remove and place a block</li>
+		
+		<h3>Excited?</h3>
+ <li class="style8">Participants can come in a group of 3 to 4 and can play against each other.</li>
+ <li class="style8">On the spot registrations will be done for this event.</li>
+ 
+.<o:p></o:p></span></span></p>
+&nbsp;</p>
+
+
+		
+	</div>
+
+
+
+
+	
+
+
+
+
+
+	
+	<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li><span class="style8">PawanVijay +918866531897(pawan@mindbend.in</span>)</li>
+<li class="style8">PriyaGupta +919737351453 (priya@mindbend.in)</li>
+
+
+
+		
+	</div>
+	
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>

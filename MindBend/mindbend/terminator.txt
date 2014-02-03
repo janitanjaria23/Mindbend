@@ -1,0 +1,127 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+				<h1><span style="color:orange"><b>Terminator 1.0 </b>
+</span></h1>
+
+		
+
+				
+<p><b>Design and construct a remote controlled robot capable of fighting a one on one tournament.</b></p>
+
+
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>BOT SPECIFICATIONS:</strong></h2>
+	<div class="pane">
+		<p><li> Bot should fix within a box of 60x60x100 cm before the start of the match</li>
+<li>Maximum allowed weight is 45kg including weight of batteries if off-board.</li>
+<li>Weight of wireless bot to be counted as 0.7 times of its actual weight and 1.5
+times in case of using external (off-board) pneumatic/hydraulic storage tank.(not to count weight of storage tank in such case) </li>
+<li>In case of onboard pneumatic/hydraulic storage tank actual weight of bot to be
+considered including batteries.</li>
+<li>Weight of batteries to be considered in all the cases.</li>
+<li>Maximum allowed pressure for pneumatic/hydraulic cylinder is 10 bar.</li>
+<li>Maximum allowed voltage is 36V with no external power supply.</li>
+<li>Restricted:- Use of inflammable CHEMICALS and HIGH-speed projectiles. </li>
+</p>
+	</div>
+
+
+
+	
+	
+<h2 class="style7">RULES </h2>
+	<div class="pane">
+		<p><li>Each fight of 5 minutes.</li>
+<li>Elimination on knock-out basis.</li>
+<li>A team loses if bot cannot show sufficient mobility for 30 seconds.</li>
+<li>The team would be judged on the basis of performance during the fight(attacking and defence). </li>
+<li>Before the start of the match the team should disclose their attacking mechanisms to the organisers.</li>
+<li>A team of maximum 5 members can be formed.</li>
+<li>In case of any dispute or ambiguity, event coordinators decision will be final.</li>
+</p>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li>
+DUSHYANT KUMBHAT
++91-8128187258   kumbhat10@gmail.com </li>
+
+<li>
+SURABHI MOUR
+
+91-8866612810
+
+surabhi.friendz@gmail.com</li>
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>
+	

@@ -1,0 +1,142 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		
+		<h1><span style="color:orange"><b>ECO Dom</b>
+</span></h1>
+
+		
+
+				
+<li class="style8">An eco-friendly building is one that is environmentally responsible, profitable and a healthy place to live and work.</li> 
+<li class="style8">With the growing demands of energy and resources, self- sustainable houses are becoming a necessity.</li>
+<li class="style8">MindBend 2012 gives you an opportunity to provide it in an interesting, informative and creative way.</li>
+</li>
+
+</b></p>
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>Problem Statement:</strong></h2>
+	<div class="pane">
+		<li class="style8">1.Participants are required to present their idea of an eco friendly house in the form of a presentation with a model showing their ideas by Integrating the best ancient practices with modern technology.</li>
+	</div>
+
+
+
+	<h2 class="style7">Rules</h2>
+	<div class="pane">
+	
+		<li class="style8">1.	Team can comprise of maximum 3 members.</li>
+		<li class="style8">2.	The event consists of two phases: </li>
+         <li class="style8">i.	The online abstract submission </li>
+ 		<li class="style8">ii.	Presentation by the shortlisted candidates on the basis of the abstract submitted.                 </li>
+		<li class="style8">3.	The final selected teams will present their idea during MindBend.</li>
+		<li class="style8">4.	The shortlisted teams will be notified via e-mail.</li>
+		<li class="style8">5.	The winners will be selected by a team of judges based on their presentation (they are supposed to clear any queries of the judges or other participants raised during the presentation).</li>
+		<li class="style8">6.	The decision of judges will be final and binding.</li>
+		<li class="style8">7.	Interdisciplinary participation is allowed.</li>
+	
+	</div>
+
+	
+<h2 class="style7">Specifications:</h2>
+	<div class="pane">
+		<p>
+		
+		<li class="style8">1.	Registration fee is Rs. 60/- per team.</li>
+<li class="style8">2.	The abstract should contain team name, members names, Department name and Institute name, and should not be more than 200 words.
+</li>
+<li class="style8">3.	An abstract should give a basic idea of the house. Images can also be included but it should be original and developed by the team using any software.</li>
+<li class="style8">4.	An abstract needs to be submitted electronically to the MindBend website on or before 20 September 2012.</li>
+<li class="style8">5.	The participants are also required to give a basic 3D idea of the house by presenting a model and a ppt ( power point presentation) on the same. It should clearly mention your proposed ideas and design. </li>
+<li class="style8"> Following points should be kept in mind regarding the model:</li>
+<li class="style8">i.	The house should be built within the specified area of 2500 sq cm.</li>
+<li class="style8">ii.	No materials will be provided by the organizers, participants can use materials of their own choice.</li>
+
+
+
+</p>
+
+	</div>	
+
+
+
+
+
+
+
+
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li class="style8">PawanVijay +918866531897(pawan@mindbend.in)</li>
+<li><span class="style8">PriyaGupta +919737351453 (priya@mindbend.in</span>)</li>
+
+
+
+		
+	</div>
+	
+</li>
+
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>

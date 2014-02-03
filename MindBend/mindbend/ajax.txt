@@ -1,0 +1,158 @@
+
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+</style>
+
+	<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		
+		<h1><span style="color:orange">Levitacion!!
+</span></h1>
+
+		
+
+				
+<p><strong>Build a bot that shoots up the puck in its opponent’s goal before the 
+time rides out. The<br>
+team to make first 7 shots in opponent’s goal qualifies.</strong></p>
+
+
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>BOT SPECIFICATIONS:</strong></h2>
+	<div class="pane">
+		<p><li>Bot sizes should not exceed 350mm X 250mm.</li>
+<li>No restrictions for height and weight.</li>
+<li>Bot can be wired or wireless with a compulsory striking mechanism.</li></p>
+	</div>
+
+
+
+	<h2 class="style7">ARENA</h2>
+	<div class="pane">
+		<p><li>Standard air hockey table of approximate dimensions of 300cm X 125cm (length
+x breadth) will be made available.</li>
+<li>Standard puck of diameter 6.5cm.</li>
+</p>
+	</div>
+
+	
+<h2 class="style7">RULES and SCORING</h2>
+	<div class="pane">
+		<p><li>A coin toss decides which team gets first possession of the puck.</li>
+
+<li>For each puck shot in opponent’s goal, a point-score will be recorded.</li>
+
+<li> The first team to score 7 points by shooting the puck into the opponent's goal
+wins the game OR the team with maximum points in the game run of 5 minutes
+wins.</li>
+
+<li>Once the puck is on a certain team's side of the center line, team has 10 seconds
+
+to hit the puck back across the center line. Otherwise a foul is recorded and
+opponent team receives possession of the puck.</li>
+
+<li>Any team member cannot touch or strike the puck with any part of his/her body
+or with any object other than the bot. Doing so records a foul and possession
+changes hands.</li>
+
+<li>Hitting the puck when it is on opposite side of the center line, or crossing the
+center line COMPLETELY with one's bot causes a foul. Here, the opponent team
+receives possession of the puck.</li>
+
+<li>If the puck leaves the table, a foul is called on the team that caused the puck to
+go out of play due to offensive motion and the opposing team gets possession of
+the puck.</li>
+
+<li>No team can hold the puck for more than 3 seconds. Doing so causes a foul and
+possession changes.</li>
+
+<li>The time measured by the organizers will be final and used for scoring the
+teams.</li>
+
+<li> Time measured by any contestant by any other means is not acceptable for
+scoring.</li>
+
+<li>In case of any dispute or ambiguity, event coordinators’ decision will be final.</li>
+
+<li>Elimination on knock-out basis.</li>
+<li>A team of maximum 4 members can be formed.</li>
+</p>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li>
+DUSHYANT KUMBHAT
++91-8128187258   kumbhat10@gmail.com </li>
+
+<li>
+SURABHI MOUR
+
+91-8866612810
+
+surabhi.friendz@gmail.com</li>
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>
+	
+	

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-in" />
+<title>Mindbend 2012 | A technology Fest of NIT surat</title>
+<!--metas-->
+<meta name="description" content="Mindbend is the annual technical festival of SVNIT Surat.It has been a platform for inspiring innovation and promotes engineering students of diverse disciplines from various colleges across the nation" />
+<meta name="keywords" content="tech, lecture, NIt, Surat, technology, competitions, events, workshop, exhibition, science, fest, technical, mega , quiz , shows , robot," />
+<meta property="og:title" content="mindbend 2012" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.mindbend.in" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="mindbend" />
+<meta property="fb:admins" content="100001009162133" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<!--css-->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/slimbox_ex.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="fonts/fonts.css" />
+<link rel="shortcut icon" href="images/favicon.png">	
+<!--js-->
+<!--[if lte IE 7]><script src="fonts/lte-ie7.js"></script><![endif]-->
+<script type="text/javascript" src="js/mootools.v1.1.js"></script>
+<script type="text/javascript" src="js/slimbox_ex.js"></script>
+<script type="text/javascript" src="js/icarousel.js"></script>
+<script type='text/javascript'>
+function showContent(){
+document.body.style.display = 'block';
+}
+window.onload = showContent;
+</script>
+<style type="text/css">
+.style14 {
+	font-size: small;
+}
+.style15 {
+	text-decoration: blink;
+}
+</style>
+</head>
+
+<body>
+<div id="header">
+  <div id="menu">
+    <div class="glyph"><a id="slideout" href="" title="Home">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe003;"></div>
+		</a>
+	</div>
+	<div class="glyph"><c><a id="link2" href="" title="Events">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe004;"></div>
+		</a></c>
+	</div>
+	<div class="glyph"><x><a id="link3" href="" title="">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe005;"></div>
+	</a></x>
+	</div>
+	<div class="glyph"><y><a id="link4" href="" title="MegaShows">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe006;"></div>
+		</a></y>
+	</div>
+	<div class="glyph"><o><a id="link5" href="" title="Social intiative">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe029;"></div>
+		</a></o>
+	</div>
+</div>
+<div id="svnit-logo"><a href="http://www.svnit.ac.in">
+<img src="images/svnit-logo.png" width="97" height="90"/></a>
+</div>
+<div id="lucuma" style="width: 1096px; height: 93px">
+<a href="index.html">
+<img alt="mindbend logo" src="images/lucuma.png"style="left: 12px; top: 20px" /></a></div>
+</div
+><div id="contenedor">
+  <div id="contenedor-bg" style="left: 0px; top: 0px">
+    <div id="content1" class="scrolling-content">
+    <center>
+<div id="timer">
+  <table width="51" border="0" cellpadding="0" cellspacing="4">
+    <tr>
+        <td colspan="8"><div class="numbers" id="count2" style="text-align: center;"></div></td>
+    </tr>
+    <tr>
+        <td width="14" align="right"><div class="numbers" id="dday"></div></td>        
+        <td width="25" align="left"><div class="title" id="days">Days</div></td>
+    </tr>
+</table>
+</div>
+</center>
+
+<script type="text/javascript">
+var current="!MINDBEND HAS STARTED!"
+var year=2012        
+var month=10          
+var day=10           
+var hour=18          
+var minute=38       
+var tz=+5.30    
+var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+function countdown(yr,m,d,hr,min){
+theyear=yr;themonth=m;theday=d;thehour=hr;theminute=min
+var today=new Date()
+var todayy=today.getYear()
+if (todayy < 1000) {
+todayy+=1900 }
+var todaym=today.getMonth()
+var todayd=today.getDate()
+var todayh=today.getHours()
+var todaymin=today.getMinutes()
+var todaysec=today.getSeconds()
+var todaystring1=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
+var todaystring=Date.parse(todaystring1)+(tz*1000*60*60)
+var futurestring1=(montharray[m-1]+" "+d+", "+yr+" "+hr+":"+min);
+var futurestring=Date.parse(futurestring1)-(today.getTimezoneOffset()*(1000*60));
+var dd=futurestring-todaystring
+var dday=Math.floor(dd/(60*60*1000*24)*1)
+var dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1)
+var dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1)
+var dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1)
+if(dday<=0&&dhour<=0&&dmin<=0&&dsec<=0){
+document.getElementById('count2').innerHTML=current;
+document.getElementById('count2').style.display="block";
+document.getElementById('count2').style.width="390px";
+document.getElementById('dday').style.display="none";
+document.getElementById('dhour').style.display="none";
+document.getElementById('dmin').style.display="none";
+document.getElementById('dsec').style.display="none";
+document.getElementById('days').style.display="none";
+document.getElementById('hours').style.display="none";
+document.getElementById('minutes').style.display="none";
+document.getElementById('seconds').style.display="none";
+return;
+}
+else {
+document.getElementById('count2').style.display="none";
+document.getElementById('dday').innerHTML=dday;
+setTimeout("countdown(theyear,themonth,theday,thehour,theminute)",1000);
+}
+}
+
+countdown(year,month,day,hour,minute)
+
+</script>
+      <div id="nosotros">
+      
+      </div>
+    </div>
+    <div id="content2" class="scrolling-content">
+      <div id="portfolio">
+     
+        <div id="portfolio-works">
+          <div id="portfolio_contenidos">
+						
+						<div class="work-1">
+						  <div class="work-img">
+						    <div class="glyph">
+						      <t><a href="techstart.html" rel="lightbox" title="VorTechs"><div class="fs1" aria-hidden="true" data-icon="&#xe002;"></div><p style="font-size: 36px; position: absolute; left: 106px; top: 33px;">VORTECHS<p></a></t>
+					        </div>
+					     </div>
+						</div>
+           <div class="work-2">
+              <div class="work-img">
+				<div class="glyph">
+				 <f><a rel="lightbox" title="Mezoclanza" href="non-tech.htm"><div class="fs1" aria-hidden="true" data-icon="&#x21;"></div><p style="font-size: 36px; position: absolute; left: 104px; top: 27px;">MEZOCLANZA</p></a></f>
+			    </div>
+				</div>
+              </div>
+            <div class="work-3">
+              <div class="work-img">
+				<div class="glyph">
+				 <v><a rel="lightbox" title="School" href="school.html"><div class="fs1" aria-hidden="true" data-icon="&#xe046;"></div><p style="font-size: 36px; position: absolute; left: 104px; top: 27px;">SCHOOL</p></a></v>
+			    </div>
+				</div>
+              </div>
+            <div class="work-4">
+              <div class="work-img">
+				<div class="glyph">
+				 <n><a rel="lightbox" title="Departmental" href="dept.html"><div class="fs1" aria-hidden="true" data-icon="&#xe000;"></div><p style="font-size: 36px; position: absolute; left: 104px; top: 27px;">DEPARTMENTAL</p></a></n>
+			    </div>
+				</div>
+              </div>
+        </div>
+      </div>
+    </div></div>
+      <div id="content3" class="scrolling-content"><a href="lecture.html" rel="lightbox"><p style="font-size:64px; padding-left:240px;">LECTURES</p></a> 
+      <a href="workshop.html" rel="lightbox">
+      <p style="font-size:64px; padding-left:940px; padding-down:200px;">WORKSHOP</p></a>      <a rel="lightbox" href="exhi.htm"> <p style="font-size:64px; padding-left:400px;padding-top:50px;">
+		EXHIBITION</p></a>               
+        <div id="response">
+        
+        </div>
+    </div>
+    
+    <r><a href="mega.html" rel="lightbox"><div id="content4" class="scrolling-content">
+      <p style="font-size:36px; padding-left:630px;">
+		MEGASHOWS</p>
+      </div></a>
+        </r> 
+        </div>
+    
+     <div id="content5" class="scrolling-content">
+       <div id="response"></div>
+    </div>
+</div>
+
+<div id="sp"><h3 class="style13"><strong>PREVIOUS SPONSORS</strong></h3></div>
+<div id="sponsors">
+<marquee scrollamount="10" style="width: 1345px">
+<img src="images2/0.png" width="150" height="52" longdesc="../Documents/images2/0.png" /><img src="images2/1.png" width="126" height="54" longdesc="../Documents/images2/1.png" /><img src="images2/Mark My Fest logo.jpg" width="150" height="43" longdesc="../Documents/images2/twnty19.png" /><img src="images2/2.png" width="269" height="53" longdesc="../Documents/images2/2.png" /><img src="images2/3.gif" width="270" height="49" longdesc="../Documents/images2/3.gif" />
+<img src="images2/4.png" width="80" height="53" longdesc="../Documents/images2/4.png" /><img src="images2/5.jpg" width="83" height="55" longdesc="../Documents/images2/5.jpg" /><img src="images2/6.jpg" width="129" height="58" longdesc="../Documents/images2/6.jpg" /><img src="images2/7.jpg" width="125" height="57" longdesc="../Documents/images2/7.jpg" /><img src="images2/8.jpg" width="246" height="56" longdesc="../Documents/images2/8.jpg" /><img src="images2/9.jpg" width="242" height="53" longdesc="../Documents/images2/9.jpg" /><img src="images2/11.jpg" width="53" height="51" longdesc="../Documents/images2/11.jpg" /><img src="images2/12.jpg" width="150" height="53" longdesc="../Documents/images2/12.jpg" /><img src="images2/13.jpg" width="89" height="55" longdesc="../Documents/images2/13.jpg" /><img src="images2/14.jpg" width="150" height="53" longdesc="../Documents/images2/14.jpg" /><img src="images2/airce.jpg" width="336" height="48" longdesc="../Documents/images2/airce.jpg" /><img src="images2/LetMeKnowLogo .jpg" width="150" height="45" longdesc="../Documents/images2/vbulletin4_logo.png" /><img src="images2/ongc.jpg" width="119" height="44" /><img src="images2/TCS.jpg" width="127" height="46" /><img src="images2/twnty19.png" width="139" height="49" /><img src="images2/vbulletin4_logo.png" width="155" height="47" /></marquee>
+</div>
+
+<div id="copyright" style="left: -15px; top: 618px; width: 373px; height: 35px">
+  <p style="width: 353px">
+  <span class="style3"><strong>Copyright :&nbsp; Mindbend 2012</strong></span>&nbsp; 
+	| <a href="http://www.svnit.ac.in" target="_blank" class="style4">NIT surat</a><span class="style5">
+  </span>| <a href="cont.htm" target="_blank" class="style4" rel="lightbox"">
+	CONTACT US</a></p> 
+</div>
+<footer>
+<div id="design" style="left: 534px; top: 628px; width: 343px; height: 17px;" class="style14">
+	<a href="webt.htm" class="style15">Designed by MINDBEND 2012 WEB team</a></div>
+<div class="social">
+<div class="glyph"><j><a id="link5" href="http://www.facebook.com/mindbend12" title="facebook">
+		<div class="fs2" aria-hidden="true" data-icon="&#x27;"></div>
+		</a></j>
+	</div>
+    <div class="glyph1" style="position: absolute; left: 91px; top: 19px;"><w><a id="link5" href="http://www.youtube.com/watch?v=9mwfFzittdY" title="youtube">
+		<div class="fs2" aria-hidden="true" data-icon="&#x28;"></div>
+		</a></w>
+	</div>
+</div>
+</footer>
+<!-- SCRIPTS -->
+<script src="js/lucuma.js" type="text/javascript"></script>
+
+</body>
+</html>

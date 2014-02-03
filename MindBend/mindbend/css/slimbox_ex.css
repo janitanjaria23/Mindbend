@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+
+/* SLIMBOX (Customized version) */
+
+#lbOverlay {
+position: absolute;
+top:0; left: 0;
+width: 200%;
+background-color: #000;
+cursor: pointer;
+z-index:10;
+}
+
+#lbBottomContainer {
+position: absolute;
+left: 50%; padding:0;
+overflow: hidden;
+background-color: #000000;
+z-index:11;
+}
+
+#lbCenter {
+position: absolute;
+left: 50%; padding:0;
+overflow: hidden;
+background-color: #000000;
+z-index:11;
+}
+
+.lbLoading {
+background: #000000 url(images/sb_loading.gif) no-repeat center;
+}
+
+#lbCanvas {
+border: 9px solid #000000;
+}
+
+#lbCanvas img {
+border:none;
+margin:0; padding:0;
+z-index:11;
+}
+
+#lbCanvas iframe {
+border:none;
+margin:0; padding:0;
+z-index:11;
+}
+
+#lbNextLink {
+display: block;
+position: absolute;
+top: 30px;
+width: 100px;
+background:url(images/sb_anchor_spacer.gif);
+z-index:11;
+}
+
+
+#lbPrevLink {
+display: block;
+position: absolute;
+top: 30px;
+width: 100px;
+background:url(images/sb_anchor_spacer.gif);
+z-index:11;
+}
+
+
+#lbPrevLink {
+left: 0;
+}
+
+#lbPrevLink:hover {
+background: transparent url(images/sb_prevlabel.gif) no-repeat;
+}
+
+#lbNextLink {
+right: 0;
+}
+
+#lbNextLink:hover {
+background: transparent url(images/sb_nextlabel.gif) no-repeat;
+}
+
+#lbBottom {
+font-size:12px;
+font-family: Verdana, Helvetica, sans-serif;
+color: #666;
+line-height: 1.4em;
+text-align: left;
+margin:0 0 0 10px; padding:0;
+z-index:11;
+}
+
+#lbCloseLink {
+display: block;
+float: right;
+width: 66px;
+height: 22px;
+background: transparent url('../images/sb_closelabel.gif') no-repeat center;
+margin:0; padding:0;
+z-index:11;
+}
+
+#lbCaption{
+z-index:11;
+}
+#lbNumber {
+font-size:10px;
+z-index:11;
+}
+
+#lbCaption {
+font-weight: bold;
+}

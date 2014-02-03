@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0039)http://mindbend.in/previous/contact.php -->
+<html xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+			Webteam :: Mindbend-2012		</title>
+        
+<meta http-equiv="CACHE-CONTROL" content="NO-STORE, NO-CACHE, MUST-REVALIDATE, POST-CHECK=0, PRE-CHECK=0">        
+		
+        <link rel="stylesheet" href="contact/mb.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="Contact/radius.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="Contact/960.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="Contact/reset.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="Contact/text.css" type="text/css" media="screen">
+        
+        <style type="text/css">
+#outerCircleText {
+font-style: italic;
+font-weight: bold;
+font-family: 'comic sans ms', verdana, arial;
+color: #A40000;
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
+#outerCircleText div {position: relative;}
+#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+</style>
+<script type="text/javascript">
+
+;(function(){
+var msg = "Mindbend 2012 Web Team";
+var size = 24;
+
+var circleY = 0.75; var circleX = 2;
+
+var letter_spacing = 5;
+
+
+var diameter = 10;
+
+
+var rotation = 0.4;
+
+var speed = 0.3;
+if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+
+msg = msg.split('');
+var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
+ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
+o = document.createElement('div'), oi = document.createElement('div'),
+b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
+
+mouse = function(e){
+ e = e || window.event;
+ ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; 
+ xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; 
+},
+
+makecircle = function(){
+ if(init.nopy){
+  o.style.top = (b || document.body).scrollTop + 'px';
+  o.style.left = (b || document.body).scrollLeft + 'px';
+ };
+ currStep -= rotation;
+ for (var d, i = n; i > -1; --i){ 
+  d = document.getElementById('iemsg' + i).style;
+  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+ };
+},
+
+drag = function(){ 
+ y[0] = Y[0] += (ymouse - Y[0]) * speed;
+ x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+ for (var i = n; i > 0; --i){
+  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
+  x[i] = X[i] += (x[i-1] - X[i]) * speed;
+ };
+ makecircle();
+},
+
+init = function(){ // appends message divs, & sets initial values for positioning arrays
+ if(!isNaN(window.pageYOffset)){
+  ymouse += window.pageYOffset;
+  xmouse += window.pageXOffset;
+ } else init.nopy = true;
+ for (var d, i = n; i > -1; --i){
+  d = document.createElement('div'); d.id = 'iemsg' + i;
+  d.style.height = d.style.width = a + 'px';
+  d.appendChild(document.createTextNode(msg[i]));
+  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
+ };
+ o.appendChild(oi); document.body.appendChild(o);
+ setInterval(drag, 25);
+},
+
+ascroll = function(){
+ ymouse += window.pageYOffset;
+ xmouse += window.pageXOffset;
+ window.removeEventListener('scroll', ascroll, false);
+};
+
+o.id = 'outerCircleText'; o.style.fontSize = size + 'px';
+
+if (window.addEventListener){
+ window.addEventListener('load', init, false);
+ document.addEventListener('mouseover', mouse, false);
+ document.addEventListener('mousemove', mouse, false);
+  if (/Apple/.test(navigator.vendor))
+   window.addEventListener('scroll', ascroll, false);
+}
+else if (window.attachEvent){
+ window.attachEvent('onload', init);
+ document.attachEvent('onmousemove', mouse);
+};
+
+})();
+
+</script>
+        
+        
+        
+        
+	    <style type="text/css">
+			body{
+				margin:0px auto;
+				background:#000;
+				font-family:calibri;
+			}
+		.style7 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: small;
+}
+.style12 {
+	color: #FFFFFF;
+	font-size: small;
+	font-family: "Arial Rounded MT Bold";
+}
+.style13 {
+	width: 750px;
+	background: transparent;
+	height: auto;
+	height: 20px;
+	font-family: "Arial Rounded MT Bold";
+	margin-right: 0;
+}
+.style14 {
+	color: #673ED8;
+	text-align: left;
+	font-size: x-large;
+	font-family: "Arial Rounded MT Bold";
+}
+		.style15 {
+	color: #000000;
+	text-align: center;
+	font-size: xx-large;
+	font-family: "Arial Rounded MT Bold";
+	background-color: #2E9AFE;
+}
+		.style16 {
+	font-size: large;
+	text-align: left;
+	color: #2E9AFE;
+}
+		.style17 {
+	font-size: large;
+}
+.style18 {
+	color: #2E9AFE;
+	text-align: left;
+}
+.style19 {
+	margin: 1px;
+}
+		.style21 {
+	font-size: medium;
+}
+.style22 {
+	margin-right: 16;
+}
+.style23 {
+	font-family: Calibri;
+}
+.style26 {
+	font-size: medium;
+	color: #2E9AFE;
+}
+		.style29 {
+	color: #FF8000;
+}
+		.style30 {
+	color: #2E9AFE;
+}
+.style31 {
+	font-size: medium;
+	color: #2E9AFE;
+	font-weight: bold;
+}
+.style32 {
+	color: #FFFFFF;
+}
+		.style33 {
+	color: #000000;
+	font-family: "Arial Black";
+	text-decoration: blink;
+	background-color: #FF8000;
+}
+.style34 {
+	color: #000000;
+}
+.style35 {
+	text-decoration: none;
+}
+		</style>
+		
+		
+	</head>
+
+	
+	<body>
+		
+		<div id="mb_header">
+			<div id="mb_header_top">
+				&nbsp;&nbsp;&nbsp;
+				<!--
+				<ul id="mb_nav">
+				</ul>
+				-->
+		    </div>
+		</div>
+		<div class="container_12">
+			<div class="clear"></div>
+			<div class="grid_12" id="mb_logo" style="width: 918px">
+				<a href="index.html">
+				<img alt="mindbend 2012 logo" src="images/lucuma.png" width="566" height="100" /></a>
+			</div>
+			<div class="clear"></div>
+		</div>
+			
+		
+		<div class="contact_body" style="width: 1013px; height: 525px">
+		
+		
+
+<!-- CONVENERS -->
+			<h1 class="style15" style="width: 1010px">Web designing Team Mindbend 2012</h1>
+			<h1 class="style14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style30">&nbsp;&nbsp;&nbsp;
+			</span>
+			<span class="style23">&nbsp;<span class="style30">Web Design HEAD &#39;s&nbsp; </span></span>
+			<span class="style30">&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+			<span class="style32">||</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			<span class="style30">Co-coordinator&#39;s</span></h1>
+
+			<div class="style13" style="height: 407px; width: 1028px;">
+			<b>
+			<p class="style7">
+			<table style="width: 94%; height: 417px;" class="style22">
+				<tr>
+					<td style="height: 95px; width: 238px">
+					<img alt="dheeraj jorwal" src="webteam/dj.jpg" width="196" height="299" style="float: left" class="style19" /></td>
+					<td style="height: 95px; width: 239px;">
+					<img alt="" src="webteam/dp.jpg" width="209" height="239" style="float: left" /></td>
+					<td style="height: 95px; width: 249px;">
+					<img alt="" src="webteam/aj.jpg" width="220" height="240" style="float: left" /></td>
+					<td style="height: 95px">
+			<b>
+					<img alt="" src="webteam/ja.jpg" width="187" height="291" style="float: left" /></b></td>
+				</tr>
+				<tr>
+					<td style="width: 238px" class="style16">&nbsp;<span class="style29">
+					</span>
+					<span class="style26">&nbsp;Name :Dheeraj 
+					jorwal (dj)<br />
+					&nbsp;&nbsp;
+					Branch: Civil engineering<br />
+					&nbsp;&nbsp; B.tech 3rd year<br />
+&nbsp; </span>
+					<span class="style33"><a href="faq.php" class="style35">
+					<span class="style34">&nbsp; Contact us&nbsp; </span></a></span></td>
+					<td class="style18" style="width: 239px">
+			<b class="style21">
+			<span class="style29">&nbsp; </span>Name :Divyesh 
+					purohit<br />
+					&nbsp;
+					Branch: Computer engineering<br />
+					&nbsp; B.tech 3rd year</b></td>
+					<td class="style18" style="width: 249px">
+			<b class="style17">
+			&nbsp; </b><span class="style31">Name : Arihant jain<br />
+					&nbsp; Branch: Mechanical engineering<br />
+					&nbsp; B.tech 2nd year</span></td>
+					<td class="style18">
+			<b>
+			&nbsp; </b><span class="style31">Name : Janit Anjaria<br />
+					&nbsp; 
+					Branch: Computer engineering<br />
+					&nbsp; B.tech 2nd year</span></td>
+				</tr>
+				<tr><h1></h1>
+					<td style="width: 238px">&nbsp;</td>
+					<td style="width: 239px">&nbsp;</td>
+					<td style="width: 249px">&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				
+			</table>
+			</p>
+			
+			<span class="style12"><!-- MARKETING --></span></b></div>
+
+
+</body>
+
+</html>

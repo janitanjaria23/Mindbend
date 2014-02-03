@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.svg#icomoon') format('svg'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'icomoon';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-microphone:before {
+	content: "\21";
+}
+.icon-home:before {
+	content: "\22";
+}
+.icon-clipboard:before {
+	content: "\23";
+}
+.icon-facebook:before {
+	content: "\24";
+}
+.icon-file-pdf:before {
+	content: "\25";
+}
+.icon-file-word:before {
+	content: "\26";
+}
+.icon-facebook-2:before {
+	content: "\27";
+}
+.icon-android:before {
+	content: "\28";
+}
+.icon-youtube:before {
+	content: "\29";
+}
+.icon-youtube-2:before {
+	content: "\2a";
+}
+.icon-arrow-left-alt1:before {
+	content: "\2b";
+}
+.icon-microphone-2:before {
+	content: "\2c";
+}
+.icon-light-bulb:before {
+	content: "\2d";
+}
+.icon-switch:before {
+	content: "\2e";
+}
+.icon-tv:before {
+	content: "\2f";
+}
+.icon-chat:before {
+	content: "\30";
+}
+.icon-users:before {
+	content: "\e029";
+}
+.icon-play:before {
+	content: "\e000";
+}
+.icon-office:before {
+	content: "\e001";
+}
+.icon-paper-plane:before {
+	content: "\e002";
+}
+.box1 {
+		display: inline-block;
+		width: 15em;
+		padding: .25em .5em;
+		background: #eee;
+		margin: .5em 1em .5em 0;
+	}
+	
+	.glyph {
+	float: left;
+	text-align: center;
+	padding: .75em;
+	margin: .75em 1.5em .75em 0;
+	width: 7em;
+	}
+	.fs1 {
+		font-size: 5em;
+	}

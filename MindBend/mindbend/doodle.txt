@@ -1,0 +1,156 @@
+<link rel="stylesheet" type="text/css" href="style/page.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/grid.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/tabs-accordion.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/mosaic.css" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	<script type="text/javascript" src="js/synapse.js"></script>
+	
+	
+	
+	<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+.style2 {
+	color: #DDDDDD;
+	font-size: x-small;
+	margin-left: 40px;
+}
+.style4 {
+	color: #000099;
+}
+.style5 {
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	color: #000099;
+}
+.style6 {
+	font-family: "Adobe Fan Heiti Std B";
+}
+.style7 {
+	font-family: "Adobe Fan Heiti Std B";
+	font-size: 18px;
+}
+.style8 {
+	color: #FFFFFF;
+}
+</style>
+<div style="max-width:700px;">
+
+
+<div id="accordion">
+
+	<h2 class="current" style="font-family: 'Adobe Fan Heiti Std B'; font-size: 18px">
+	<strong>Introduction</strong></h2>
+	<div class="pane" style="display:block">
+		<h1><span style="color:orange"><b>Doodle Jump</b>
+</span></h1>
+				
+<p><b>Build a bot to reach the top before your opponent does, climbing all the stairs and
+hurdles on your way.</b></p>
+
+
+
+
+		
+		<h1 class="style1">	
+
+<img src="images/track_doodle_final.png" width="559" height="300" class="style8"/></h1>
+
+
+
+
+		
+	</div>
+
+
+<h2 class="style6"><strong>BOT SPECIFICATIONS:</strong></h2>
+	<div class="pane">
+		<p><li>Before the start of match, the bot should fix within a cube of side dimensions
+500mm. The bot can stretch with no limits in any direction after the start of match.</li>
+<li>Maximum allowed voltage is 24V.</li>
+<li>For pneumatics/hydraulics maximum allowed pressure is 5 bar.</li></p>
+	</div>
+
+
+
+	<h2 class="style7">ARENA</h2>
+	<div class="pane">
+		<p><li>The arena will have major hurdles in form of different-sized stairs and other
+obstacles as illustrated.</li>
+<li>There are two Start points as illustrated in the image. The choice of selecting any one of them rests with the team</li>
+
+
+<li> Note: Stair sizes may change unlike shown in figure but will never exceed the
+250mm(rise).</li>
+<li>No slope will be having slope angle more than 30 degree.
+<li> No stair would be having tread less than 500mm</p>
+<li>There will be various checkpoints and other hurdles in the track which will be
+disclosed on the spot.</li>
+<li>The arena may not be to the exact dimension but with a tolerance of 10mm.</p>
+
+<li><a href="doodle jump.zip">DOWNLOAD ALL IMAGES OF ARENA(right click & save link as)</a></li>
+
+	</div>
+
+	
+<h2 class="style7">RULES </h2>
+	<div class="pane">
+		<p><li> Each team will be given a single run with no time limit. The team reaching the
+top with maximum points wins.</li> 
+<li>  Each team will be given 3 minutes of trial run before the match to get their bot
+acquainted with the arena.</li> 
+ 
+<li> Team will be allowed to touch the bot or take restart only three times during
+final run with a penalty of 30 points each. The bot must restart from the last
+crossed checkpoint in such case.</li> 
+<li> Maximum time allowed for an obstacle is 2 minutes, which otherwise leads to
+disqualification.</li> 
+
+<li> Final score = (total score) – time taken(in seconds)/3</li> 
+
+<li> 50 points to cross the major obstacles, 30 points to cross the minor obstacles
+and 200 points for finishing the match.</li> 
+
+<li> 200 bonus points if bot is wireless.</li> 
+
+<li> A team of maximum 5 members can be formed.</li> 
+</p>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+<h2 class="style6"><strong>Contact</strong></h2>
+	<div class="pane">
+<li>
+DUSHYANT KUMBHAT
++91-8128187258   kumbhat10@gmail.com </li>
+
+<li>
+SURABHI MOUR
+
+91-8866612810
+
+surabhi.friendz@gmail.com</li>
+
+
+
+		
+	</div>
+	
+</div>
+
+
+
+		</div>
+	</div>

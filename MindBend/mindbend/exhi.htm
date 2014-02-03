@@ -1,0 +1,382 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0076)http://s3.amazonaws.com/buildinternet/live-tutorials/sliding-boxes/index.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head profile="http://gmpg.org/xfn/11">
+		
+
+		<title>Exhibition | Mindbend 2012</title>
+		
+		<style type="text/css">
+		
+			*{ padding:0px; margin:0px; }
+			body{ background-position: 0% 0%;
+	background-color: #D5DEE7;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+			a{ color:#C8DCE5;}
+			h3{ margin: 10px 10px 0 10px; color:#FFF; font:18pt Arial, sans-serif; letter-spacing:-1px; font-weight: bold;  }
+			
+			.boxgrid{ 
+				width: 325px; 
+				height: 260px; 
+				margin:10px; 
+				float:left; 
+				background:#161613; 
+				border: solid 2px #8399AF; 
+				overflow: hidden; 
+				position: relative; 
+			}
+				.boxgrid img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				.boxgrid p{ 
+					padding: 0 10px; 
+					color:#afafaf; 
+					font-weight:bold; 
+					font:10pt "Lucida Grande", Arial, sans-serif; 
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background: #000; 
+				height: 100px; 
+				width: 100%; 
+				opacity: .8; 
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+ 				.captionfull .boxcaption {
+ 					top: 260;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 220;
+ 					left: 0;
+ 				}
+				
+			h3 a{}
+				
+		</style>
+		
+		
+		
+		
+		
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="fancy/jquery-1.8.0.min.js"></script>
+
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="fancy/jquery.fancybox.js?v=2.1.0"></script>
+	<link rel="stylesheet" type="text/css" href="fancy/jquery.fancybox.css?v=2.1.0" media="screen" />
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style> 
+
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//To switch directions up/down and left/right just place a "-" in front of the top/left attribute
+				//Vertical Sliding
+				$('.boxgrid.slidedown').hover(function(){
+					$(".cover", this).stop().animate({top:'-260px'},{queue:false,duration:300});
+				}, function() {
+					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:300});
+				});
+				//Horizontal Sliding
+				$('.boxgrid.slideright').hover(function(){
+					$(".cover", this).stop().animate({left:'325px'},{queue:false,duration:300});
+				}, function() {
+					$(".cover", this).stop().animate({left:'0px'},{queue:false,duration:300});
+				});
+				//Diagnal Sliding
+				$('.boxgrid.thecombo').hover(function(){
+					$(".cover", this).stop().animate({top:'260px', left:'325px'},{queue:false,duration:300});
+				}, function() {
+					$(".cover", this).stop().animate({top:'0px', left:'0px'},{queue:false,duration:300});
+				});
+				//Partial Sliding (Only show some of background)
+				$('.boxgrid.peek').hover(function(){
+					$(".cover", this).stop().animate({top:'90px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:160});
+				});
+				//Full Caption Sliding (Hidden to Visible)
+				$('.boxgrid.captionfull').hover(function(){
+					$(".cover", this).stop().animate({top:'160px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'260px'},{queue:false,duration:160});
+				});
+				//Caption Sliding (Partially Hidden to Visible)
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'160px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+		
+	<script type="text/javascript" async="" src="./exhi_files/bsa.js"></script><script type="text/javascript" id="_bsap_js_3a3793f622db4a9dea3bfa355c5b2441" src="./exhi_files/s_3a3793f622db4a9dea3bfa355c5b2441.js" async="async"></script><style type="text/css" id="bsa_css">.one{position:relative}.one .bsa_it_ad{display:block;padding:15px;border:1px solid #e1e1e1;background:#f9f9f9;font-family:helvetica,arial,sans-serif;line-height:100%;position:relative}.one .bsa_it_ad a{text-decoration:none}.one .bsa_it_ad a:hover{text-decoration:none}.one .bsa_it_ad .bsa_it_t{display:block;font-size:12px;font-weight:bold;color:#212121;line-height:125%;padding:0 0 5px 0}.one .bsa_it_ad .bsa_it_d{display:block;font-size:11px;color:#434343;font-size:12px;line-height:135%}.one .bsa_it_ad .bsa_it_i{float:left;margin:0 15px 10px 0}.one .bsa_it_p{display:block;text-align:right;position:absolute;bottom:10px;right:15px}.one .bsa_it_p a{font-size:10px;color:#666;text-decoration:none}.one .bsa_it_ad .bsa_it_p a:hover{font-style:italic}
+.style2 {
+	border-width: 0px;
+}
+.style4 {
+	font-size: large;
+	font-family: "Arial Black";
+}
+.style5 {
+	font-size: x-large;
+	font-family: "Arial Black";
+}
+</style></head>
+	<body style="background-image: url('images/1.JPG')">
+
+<div id="bsa-banner">
+	<div class="logo-zone" style="width: 409px">
+		<a href="index.html">
+		<img alt="" src="images/lucuma.png" width="400" height="100" class="style2" /></a></div>
+	
+	<div class="clear"></div>
+</div>
+			<div class="boxgrid captionfull">
+				<img src="./exhi_files/1.jpg">
+				<div class="cover boxcaption" style="top: 260px; ">
+									<a class="fancybox fancybox.ajax" href="artg.txt"><li><strong>
+				<span class="style5">Art</span></strong></li></a>
+					<a class="fancybox" href="bg/photo.jpg" data-fancybox-group="gallery" ><li><strong>
+				<span class="style4">Photography</span></strong></li></a>
+				
+					<a class="fancybox" href="bg/film.gif" data-fancybox-group="gallery" ><li><strong>
+				<span class="style5">filmmaking</span></strong></li></a>
+
+				
+				
+					<p><br><a href="#"target="_BLANK"></a></p>
+				</div>		
+			</div>
+			
+			<div class="boxgrid caption" style="left: 50px; top: 0px">
+					<a class="fancybox" href="bg/auto.jpg" data-fancybox-group="gallery" >
+					<img src="./exhi_files/2.jpg" style="left: 2px; top: 0"></a>
+				<div class="cover boxcaption" style="top: 220px; ">
+						<a class="fancybox" href="bg/auto.jpg" data-fancybox-group="gallery" ><h3>Auto ExPo</h3></a>
+					<p><br><a href="#" target="_BLANK"></a></p>
+				</div>
+			</div>
+				
+			<div class="boxgrid slideright" style="left: 108px; top: 0px">
+					<a class="fancybox" href="bg/art.jpg" data-fancybox-group="gallery" ><img class="cover" src="./exhi_files/3.jpg" style="left: 1px; top: 0;"></a>
+				<a class="fancybox" href="bg/art.jpg" data-fancybox-group="gallery" >	<h3>Artillery Arena</h3>
+				<p><br><a href="#" target="_BLANK"></a></p>
+			</div>
+			<div class="boxgrid thecombo">
+					<a class="fancybox" href="bg/comm.jpg" data-fancybox-group="gallery" ><img class="cover" src="./exhi_files/4.jpg" style="top: 0px; left: 0px; "></a>
+				<a class="fancybox" href="bg/comm.jpg" data-fancybox-group="gallery" >	<h3>Communications Era</h3></a>
+				<p><br><a href="#" target="_BLANK"></a></p>
+			</div>
+			
+			<div class="boxgrid slidedown" style="left: 51px; top: 0px">
+					<a class="fancybox" href="bg/age.jpg" data-fancybox-group="gallery" >
+					<img class="cover" src="./exhi_files/5.jpg" style="top: 1px; left: 3px;"></a>
+					<a class="fancybox" href="bg/age.jpg" data-fancybox-group="gallery" >	<h3>Ages of Symphony</h3></a>
+					<p><br><a href="#" target="_BLANK"></a></p>	
+			</div>
+				
+			<div class="boxgrid slideright" style="left: 106px; top: 0px">
+				<img class="cover" src="./exhi_files/6.jpg" style="left: 1px; top: 0;">
+				<a class="fancybox" href="bg/conq.jpg" data-fancybox-group="gallery" ><h3>CONQUEST OF POTENTIAL</h3></a>
+				<p><br><a href="#" target="_BLANK"></a></p>
+			</div>
+
+
+
+		</div>
+	
+	
+</body></html>

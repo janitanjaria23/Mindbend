@@ -1,0 +1,250 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/techevents.css">
+<title></title>
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="fancy/jquery-1.8.0.min.js"></script>
+
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="fancy/jquery.fancybox.js?v=2.1.0"></script>
+	<link rel="stylesheet" type="text/css" href="fancy/jquery.fancybox.css?v=2.1.0" media="screen" />
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	.style1 {
+	font-size: 60px;
+	color: #008000;
+	text-decoration: blink;
+}
+	.style2 {
+	text-align: center;
+}
+.style7 {
+	color: #0066FF;
+	font-size: xx-large;
+	background-color: #000000;
+}
+.style8 {
+	font-size: xx-large;
+}
+.style9 {
+	font-family: "Arial Black";
+	color: #0066FF;
+	background-color: #000000;
+}
+.style10 {
+	text-decoration: blink;
+}
+	.style11 {
+	text-decoration: none;
+}
+.style12 {
+	color: #0066FF;
+}
+	</style> 
+
+</head>
+
+<body bgcolor="#990033">
+<div class="style2" style="left: 268px; top: 193px; width: 1216px; height: 534px;"> 
+	<span class="style1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+	<br>
+&nbsp;&nbsp;&nbsp; &quot;Prizes worth 5 lacs to be won"</strong></span>
+	&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<img src="images/lucuma.png"/>
+		<br>
+		<span class="style8">&nbsp;&nbsp;<span class="style9">&nbsp;
+	<span class="style10"><a href="techevents.html" class="style11">
+	<span class="style12">Continue</span></a> </span>&nbsp;</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span><a href="take.txt"class="fancybox fancybox.ajax"  style="text-decoration:none;"><span class="style7"><strong>
+	</strong></span>
+                    
+                    </a><span class="style7"><strong>&nbsp;&nbsp;
+	<span class="style10"><a href="video.htm" class="style11">
+	<span class="style12">Take a Tour</span></a></span>&nbsp;&nbsp; </strong></span>
+	<span class="style8">
+                 
+				<br>
+	</span>&nbsp;</div>
+</body>
+</html>
